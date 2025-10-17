@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flip a coin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Flip a coin</h1>
+            <p>Play against the computer. There's both sides to a coin.</p>
+        </div>
+        <div class="header-image">
+            <img src="assets/flip-a-coin.png" alt="Flip a coin">
+        </div>
+    </header>
+    <div class="game-content">
+        <h2>Choose your side</h2>
+        <div class="coin">
+            <div class="side">
+                <button id="heads-btn" type="submit"><img src="assets/heads.png" alt="heads"></button>
+                <p>Heads</p>
+            </div>
+            <div class="side">
+                <button id="tails-btn" type="submit"><img src="assets/tails.png" alt="tails"></button>
+                <p>Tails</p>
+            </div>
+        </div>
+        <div class="output">
+            <div class="computer-choice">
+                <img id="computer-img" src="" alt="Computer's choice">
+            </div>
+            <p id="output-text"></p>
+        </div>
+    </div>
+    <footer>
+        <p>Designed by <a href="https://github.com/austin100-v/">Austine Irungu</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
